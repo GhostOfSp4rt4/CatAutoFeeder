@@ -166,7 +166,7 @@ while True:
 #                        time.sleep(0.5)
                   
                     #Si es entre las 16:00 - 00:00 abrimos primera compuerta
-                    if(hora>=16 and hora<23):
+                    else:
                         print("Segundo posicion")
                         pi.set_servo_pulsewidth(5, 2200)
                         time.sleep(0.5)
